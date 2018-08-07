@@ -12,17 +12,17 @@ public class TobaccoStallTest {
     public void before(){
         jimmy = new Visitor(17, 1800, "Twenty Seven", 1 );
         marky = new Visitor(18, 1800, "Twenty Seven", 1 );
-        camel = new TobaccoStall();
+        camel = new TobaccoStall("Camel bonanza", "John Belushi", "E32");
     }
 
     @Test
-    public void jimmyCanBuyCigarretes(){
+    public void canBuyCigarretesNo(){
         boolean test = camel.isAllowedTo(jimmy);
         assertEquals(false, test);
     }
 
     @Test
-    public void markyCanBuyCigarretes(){
+    public void canBuyCigarretesYes(){
         boolean test = camel.isAllowedTo(marky);
         assertEquals(true, test);
     }

@@ -10,36 +10,46 @@ public class RollerCoasterTest {
     Visitor marky;
     Visitor bobby;
     Visitor jenny;
-    Rollercoaster ohCrapSon;
+    Rollercoaster maniac;
 
     @Before
     public void before(){
         jimmy = new Visitor(11, 144, "Twenty Seven", 1 );
         marky = new Visitor(11, 146, "Twenty Seven", 1 );
         bobby = new Visitor(12, 144, "Twenty Seven", 1 );
-        jenny = new Visitor(12, 146, "Twenty Seven", 1 );
-        ohCrapSon = new Rollercoaster();
+        jenny = new Visitor(12, 201, "Twenty Seven", 1 );
+        maniac = new Rollercoaster("UpsideDown", 3);
     }
 
     @Test
-    public void jimmyCannotRide(){
-        boolean test = ohCrapSon.isAllowedTo(jimmy);
+    public void cannotRideShortNoMoney(){
+        boolean test = maniac.isAllowedTo(jimmy);
         assertFalse(test);
     }
 
     @Test
-    public void markyCannotRide(){
-        boolean test =ohCrapSon.isAllowedTo(marky);
+    public void cannotRideShort(){
+        boolean test = maniac.isAllowedTo(marky);
         assertFalse(test);;
     }
     @Test
-    public void bobbyCannotRide(){
-        boolean test =ohCrapSon.isAllowedTo(bobby);
+    public void cannotRideNoMoney(){
+        boolean test = maniac.isAllowedTo(bobby);
         assertFalse(test);;
     }
     @Test
-    public void jennyCanRide(){
-        boolean test =ohCrapSon.isAllowedTo(jenny);
+    public void canRide(){
+        boolean test = maniac.isAllowedTo(jenny);
         assertTrue(test);;
+    }
+
+    @Test
+    public void singleTicket(){
+        assertEquals(8.40, maniac.priceFor(jimmy),0);
+    }
+
+    @Test
+    public void doubledTicket(){
+        assertEquals(16.80, maniac.priceFor(jenny),0);
     }
 }

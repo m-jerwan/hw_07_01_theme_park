@@ -38,4 +38,8 @@ public class ThemePark {
         return allReviewed;
     }
 
+    public void visit(Visitor visitor, Attraction attraction){
+//        TODO empty method
+    }
+
 }

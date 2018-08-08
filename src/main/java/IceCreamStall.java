@@ -14,7 +14,4 @@ public class IceCreamStall extends Stall implements ITicketed {
     }
 
 
-    public boolean isAllowedTo(Visitor visitor){
-        return true;
-    }
 }

@@ -4,9 +4,7 @@ public class Park extends Attraction {
         super(name, rating);
     }
 
-    public boolean isAllowedTo(Visitor visitor){
-        return true;
-    }
+
 
 
 }

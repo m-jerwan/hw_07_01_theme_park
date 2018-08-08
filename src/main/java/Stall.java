@@ -19,4 +19,11 @@ public abstract class Stall implements IReviewed, ISecurity {
     public int getRating() {
         return rating;
     }
+
+
+
+//    By default all attractions are open to everyone
+    public boolean isAllowedTo(Visitor visitor){
+        return true;
+    }
 }

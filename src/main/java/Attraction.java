@@ -15,5 +15,9 @@ public abstract class Attraction implements IReviewed, ISecurity{
     public int getRating() {
         return rating;
     }
+
+    public boolean isAllowedTo(Visitor visitor){
+        return true;
+    }
 }
 

@@ -12,7 +12,4 @@ public class CandyFlossStall extends Stall {
         return defaultPrice();
     }
 
-    public boolean isAllowedTo(Visitor visitor){
-        return true;
-    }
 }

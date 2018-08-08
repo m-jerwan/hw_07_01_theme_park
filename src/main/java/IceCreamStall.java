@@ -1,5 +1,6 @@
 public class IceCreamStall extends Stall implements ITicketed {
 
+
     public IceCreamStall(String name, String ownerName, String parkingSpot) {
         super(name, ownerName, parkingSpot);
     }
@@ -10,5 +11,10 @@ public class IceCreamStall extends Stall implements ITicketed {
 
     public double priceFor(Visitor visitor){
         return defaultPrice();
+    }
+
+
+    public boolean isAllowedTo(Visitor visitor){
+        return true;
     }
 }

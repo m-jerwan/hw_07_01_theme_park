@@ -1,4 +1,4 @@
-public abstract class Attraction implements IReviewed {
+public abstract class Attraction implements IReviewed, ISecurity{
     protected String name;
     protected int rating;
 
@@ -16,3 +16,4 @@ public abstract class Attraction implements IReviewed {
         return rating;
     }
 }
+

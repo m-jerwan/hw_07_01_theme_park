@@ -1,4 +1,4 @@
-public abstract class Stall implements IReviewed {
+public abstract class Stall implements IReviewed, ISecurity {
     protected String name;
     protected String ownerName;
     protected String parkingSpot;

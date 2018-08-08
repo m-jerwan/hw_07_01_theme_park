@@ -5,7 +5,6 @@ import javax.lang.model.type.ArrayType;
 import java.util.ArrayList;
 
 import static junit.framework.TestCase.assertTrue;
-import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 public class ThemeParkTest {
@@ -15,6 +14,7 @@ public class ThemeParkTest {
     TobaccoStall camel;
     Playground ballPit;
     IceCreamStall iceCream1;
+    Visitor visitor_01;
 
     @Before
     public void before(){
@@ -29,6 +29,9 @@ public class ThemeParkTest {
         absoluteFunBonanza.addStall(camel);
         absoluteFunBonanza.addAttraction(ballPit);
         absoluteFunBonanza.addAttraction(theRedLight);
+
+        visitor_01 = new Visitor(17, 199, "Anna", 20);
+
     }
 
     @Test
@@ -45,5 +48,10 @@ public class ThemeParkTest {
     @Test
     public void countReviews(){
         assertEquals(4, absoluteFunBonanza.getAllReviewed().size());
+    }
+
+    @Test
+    public void countWhichPlacedICanVisit(){
+        assertEquals(2, absoluteFunBonanza.getAllAllowedFor(visitor_01).size());
     }
 }

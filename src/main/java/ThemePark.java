@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.stream.DoubleStream;
 
 public class ThemePark {
 
@@ -42,4 +41,22 @@ public class ThemePark {
 //        TODO empty method
     }
 
+
+    public ArrayList<ISecurity> getAllAllowedFor(Visitor visitor) {
+
+        ArrayList<ISecurity> allAllowed = new ArrayList<ISecurity>();
+
+
+        for (Stall stall : allStalls) {
+            if (stall.isAllowedTo(visitor) == true) {
+                allAllowed.add(stall);
+            }
+        }
+        for (Attraction attraction : allAttractions) {
+            if (attraction.isAllowedTo(visitor) == true) {
+                allAllowed.add(attraction);
+            }
+        }
+        return allAllowed;
+    }
 }

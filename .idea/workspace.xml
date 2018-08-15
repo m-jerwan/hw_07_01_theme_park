@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3da5670-5598-498c-b38e-cedb2b416b55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Attraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CandyFlossStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CandyFlossStall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dodgems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dodgems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IceCreamStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IceCreamStall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Park.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Park.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stall.java" afterDir="false" />
-    </list>
+    <list default="true" id="e3da5670-5598-498c-b38e-cedb2b416b55" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -64,7 +56,7 @@
     <session id="367938702">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="3" />
@@ -123,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TobaccoStall.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
                 <element signature="e#139#140#0" expanded="true" />
                 <element signature="e#190#191#0" expanded="true" />
@@ -610,7 +602,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533719640079" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533719774163" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -702,9 +694,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThemeParkTest_countReviews - 2018.08.08 at 09h 54m 30s.xml">
-      <configuration name="ThemeParkTest.countReviews" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ThemeParkTest_countReviews - 2018.08.08 at 09h 54m 41s.xml">
       <configuration name="ThemeParkTest.countReviews" configurationId="JUnit" />
     </history-entry>
@@ -732,6 +721,9 @@
     <history-entry file="All_in_AmusementPark_test - 2018.08.08 at 10h 03m 54s.xml">
       <configuration name="All in AmusementPark_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_AmusementPark_test - 2018.08.08 at 10h 14m 03s.xml">
+      <configuration name="All in AmusementPark_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,7 +738,7 @@
     <frame x="41" y="22" width="1399" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34266764" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34266764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -755,7 +747,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23915738" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23791349" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.14993805" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -986,8 +978,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TobaccoStall.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
             <element signature="e#139#140#0" expanded="true" />
             <element signature="e#190#191#0" expanded="true" />
